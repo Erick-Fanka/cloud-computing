@@ -50,7 +50,7 @@ Aqui você encontrará **cenários simulados com empresas fictícias**, arquivos
 ## 👨‍💻 Autor
 
 **Erick Fanka**  
-Competidor WorldSkills | Estudante de Cloud Computing  
+Ex-Competidor WorldSkills | Cloud Computing | Redes | Python | AWS   
 🔗 [LinkedIn](https://www.linkedin.com/in/erick-fanka-522a01317)
 
 ---
