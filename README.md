@@ -46,15 +46,15 @@ Cada cenário representa uma **empresa fictícia** com desafios específicos, pe
 | **Categoria**       | **Tecnologia**               | **Finalidade no Projeto**                          |
 |---------------------|-------------------------------|---------------------------------------------------|
 | **Cloud**           | [AWS](https://aws.amazon.com/) | Plataforma principal de nuvem                    |
-| **Compute**         | EC2, ECS, EKS                 | Servidores virtuais e containers                  |
+| **Compute**         | EC2, ECS,                      | Servidores virtuais e containers                  |
 | **Rede**            | VPC, ALB, Route 53             | Infraestrutura de rede e balanceamento            |
 | **Armazenamento**   | S3, EBS, EFS                  | Soluções de armazenamento escalável              |
 | **Banco de Dados**  | RDS, DynamoDB                 | Bancos de dados gerenciados                       |
 | **Automação**       | User Data, AWS CLI            | Configuração automatizada de instâncias          |
-| **IaC**            | CloudFormation, Terraform     | Infraestrutura como Código                       |
+| **IaC**            | CloudFormation     | Infraestrutura como Código                       |
 | **SO**             | Amazon Linux 2, Ubuntu         | Sistemas operacionais base                       |
 | **Scripting**       | Bash, Python                  | Automação e configuração de ambientes             |
-| **Containers**      | Docker, Kubernetes            | Containerização e orquestração                   |
+| **Containers**      | Docker            | Containerização e orquestração                   |
 
 ---
 
@@ -62,7 +62,7 @@ Cada cenário representa uma **empresa fictícia** com desafios específicos, pe
 
 ```bash
 worldskills-cloud/
-├── cenarios/              # Cenários simulados (empresas fictícias)
+├── cloud-scenarios/              # Cenários simulados (empresas fictícias)
 │   ├── empresa-1/         # Ex: E-commerce com alta disponibilidade
 │   │   ├── README.md      # Descrição do cenário e objetivos
 │   │   ├── diagrama.png    # Diagrama de arquitetura
@@ -72,13 +72,15 @@ worldskills-cloud/
 │   └── ...
 │
 ├── scripts/               # Scripts genéricos reutilizáveis
-│   ├── deploy-ec2.sh      # Exemplo: Implantação de instância EC2
+│   ├── webserver      # Exemplo: Implantação de instância EC2
+│   │   ├──webserber.sh
+│   │
 │   ├── config-vpc.sh      # Exemplo: Configuração de VPC
 │   └── ...
 │
 ├── templates/             # Templates de IaC
 │   ├── cloudformation/    # Templates AWS CloudFormation
-│   └── terraform/         # Módulos Terraform
+│   
 │
 ├── LICENSE                # Licença do repositório
 └── README.md              # Este arquivo
@@ -151,10 +153,6 @@ Cada pasta em `/cenarios/` representa um **projeto completo** com:
 |------------|------------|---------------|
 | ✅ **Concluído** | Cenários básicos de EC2 e VPC | Configuração de instâncias, VPCs e sub-redes |
 | ✅ **Concluído** | Scripts de automação com User Data | Deploy automatizado de aplicações |
-| 🚧 **Em Andamento** | Adição de cenários com containers | Integração com ECS e EKS |
-| 📌 **Planejado** | Implementação de templates Terraform | IaC para todos os cenários |
-| 📌 **Planejado** | Cenários com serverless | Lambda, API Gateway, DynamoDB |
-| 📌 **Planejado** | Documentação em vídeo | Tutoriais passo a passo |
 
 ---
 ## 🤝 Como Contribuir
