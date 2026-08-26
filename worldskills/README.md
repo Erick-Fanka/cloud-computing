@@ -180,34 +180,4 @@ Siga estes passos:
    ```
 5. Abra um **Pull Request** com uma descrição clara das mudanças
 
----
-## 📄 Licença
-
-Este projeto está sob a licença **[MIT](LICENSE)**. Consulte o arquivo para obter detalhes.
-
----
-## 👨‍💻 Autor
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Erick-Fanka">
-        <img src="https://avatars.githubusercontent.com/Erick-Fanka" width="120px;" alt="Foto de Erick Fanka" style="border-radius: 50%;" />
-      </a>
-      <br />
-      <strong>Erick Fanka</strong>
-    </td>
-    <td>
-      <strong>Ex-Competidor WorldSkills | Cloud Computing | AWS | Redes | Python</strong><br />
-      <a href="https://www.linkedin.com/in/erick-fanka">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-      </a>
-      <a href="https://github.com/Erick-Fanka">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-      </a>
-    </td>
-  </tr>
-</table>
-
----
 > 💡 **Nota:** Este repositório é **100% educacional** e voltado para **práticas de competição**. Todos os cenários, empresas e dados são **fictícios**. Nenhuma empresa real está associada aos projetos aqui descritos.
