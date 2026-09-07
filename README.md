@@ -31,7 +31,7 @@ Este repositório centraliza tudo que produzo na área de **computação em nuve
 
 ## 📁 Estrutura do Repositório
 
-```bash
+```
 cloud-computing/
 ├── docs/                   # Anotações e referências de serviços (em breve)
 ├── iam/                    # Configurações de Identidade e Acesso
@@ -40,7 +40,7 @@ cloud-computing/
 ├── labs/                   # Labs práticos de cloud (em breve)
 ├── worldskills/            # Preparação para a WorldSkills: cenários, scripts e templates
 └── README.md
-
+```
 ---
 
 ## 🌩️ WorldSkills
