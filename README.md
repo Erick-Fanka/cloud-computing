@@ -33,11 +33,13 @@ Este repositório centraliza tudo que produzo na área de **computação em nuve
 
 ```bash
 cloud-computing/
-├── worldskills/      # Preparação para a WorldSkills: cenários, scripts e templates
-├── labs/             # Labs práticos de cloud (em breve)
-├── docs/             # Anotações e referências de serviços (em breve)
+├── docs/                   # Anotações e referências de serviços (em breve)
+├── iam/                    # Configurações de Identidade e Acesso
+│   ├── policies/           # Políticas de permissão (ex: oidc-access-policy.json)
+│   └── trust-policies/     # Políticas de relação de confiança (ex: oidc-trust-policy.json)
+├── labs/                   # Labs práticos de cloud (em breve)
+├── worldskills/            # Preparação para a WorldSkills: cenários, scripts e templates
 └── README.md
-```
 
 ---
 
