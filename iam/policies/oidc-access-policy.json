@@ -1,0 +1,26 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "S3SyncPermissions",
+			"Effect": "Allow",
+			"Action": [
+				"s3:PutObject",
+				"s3:ListBucket",
+				"s3:DeleteObject"
+			],
+			"Resource": [
+				"arn:aws:s3:::SEU_BUCKET",
+				"arn:aws:s3:::SEU_BUCKET/*"
+			]
+		},
+		{
+			"Sid": "CloudFrontInvalidationPermissions",
+			"Effect": "Allow",
+			"Action": [
+				"cloudfront:CreateInvalidation"
+			],
+			"Resource": "arn:aws:cloudfront::[SEU_ID_ACCOUNT]:distribution/[ID_DISTRIBUTRION]" 
+		}
+	]
+}
